@@ -1,0 +1,217 @@
+/* -------------------------------------------------------------- 
+
+	LAYOUT
+
+-------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+
+	DEFAULT
+	
+-------------------------------------------------------------- */
+
+
+body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color: #efefef;} /* background: just for developing */
+
+
+/* -------------------------------- 
+	CLASSES
+-------------------------------- */
+
+	/* -------------------------------- 
+		Float
+	-------------------------------- */
+
+	.fl{float: left;}
+	.fr{float: right;}
+
+	.alignleft{float: left; padding-right: 14px; margin-bottom: 18px;}
+	.alignright{float: right; padding-left: 14px; margin-bottom: 18px;}
+
+	/* -------------------------------- 
+		Rounder Cornes (Just Firefox, Safari and Ie8 at this moment)
+	-------------------------------- */
+
+	.br-rd4{border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -ms-border-radius: 4px;}
+	.br-rd2{border-radius: 4px; -moz-border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px;}
+
+
+/* -------------------------------- 
+	CENTER ALL 946px
+-------------------------------- */
+
+	div#header, div#navigation div#menu, div#submenu ul, div.featured, div#works, div#content, div#foot{margin: 0 auto; overflow: hidden; width: 946px;}
+
+
+/* -------------------------------------------------------------- 
+
+	TOP (header)
+
+-------------------------------------------------------------- */
+
+
+/* -------------------------------- 
+	Headre
+-------------------------------- */
+
+	div#header{padding: 28px 0;}
+	
+		div#header h1 {float: left;}
+			div#header h1 a{background: transparent url('../images/wpesp-portfolio-logo.png') no-repeat;border: none;display: block;height: 86px;overflow: hidden;text-indent: -2000px;width: 226px;}
+			
+		div#header p{float: right; width: 304px;}
+		
+		
+/* -------------------------------- 
+	Navigation
+-------------------------------- */
+	
+	div#navigation {background-color: #333;}
+		
+		div#navigation div#menu {height: 56px; overflow: hidden;}
+		
+		div#navigation div#menu ol {float: left;}
+		div#navigation div#menu ol li{border-left: 1px solid #666;float: left;}
+		div#navigation div#menu ol li#menulast{border-right: 1px solid #666;}
+			div#navigation div#menu ol li a {display: block; height: 56px; padding-left: 31px; width: 129px;}
+					
+				/* Vertical centring with line-height:0 and marging-top */
+				div#navigation div#menu ol li a small{display: block; line-height:0; margin-top: -7px;}
+				
+		div#navigation div#menu div#feed{display: inline; float: right;}
+			div#navigation div#menu div#feed a {background: transparent url('../images/feed-nav.gif') no-repeat;display: block; height: 56px; width: 66px;}
+			div#navigation div#menu div#feed a:hover{background-position: 0 -56px;}
+				div#navigation div#menu div#feed a span{display:none;}
+
+
+/* -------------------------------------------------------------- 
+
+	WORK PAGES
+
+-------------------------------------------------------------- */
+
+
+/* -------------------------------- 
+	Featured
+-------------------------------- */
+
+	div.featured{margin: 56px auto;}
+		div.featured div.info{float: left; width: 505px; position: absolute;}
+
+			div.featured div.info dl dt{float: left; display: inline;}
+				
+			div.featured ul.view{margin-top: 285px; position: absolute; width: 505px;}
+				div.featured ul.view li{display: inline; margin-right: 7px;}
+
+		div.featured div.stick a{background-color: #fff;border: 1px solid #333; float: right; height: 269px; padding: 14px;width: 359px;}
+		div.featured div.stick a:hover{border: 1px solid #999;}
+		
+			div.featured div.stick a img{background-color: #fff;opacity: 1; filter:alpha(opacity=100); width: 359px;}
+			div.featured div.stick a:hover img{background-color: #fff;opacity: .5; filter:alpha(opacity=50); width: 359px;}
+
+
+/* -------------------------------- 
+	Works
+-------------------------------- */
+
+	div#works{margin-top: 56px;}
+		
+		div#works div.minus14{margin-left: -14px; overflow: hidden; width: 960px;} /* Why width=960px? We have add the negative margin-left (-14px=+14px) to the div#workd width (946px). */
+		
+		div#works div.minus14 div.thumb{margin-left: 14px; padding-bottom: 28px; display: inline; float: left; width: 306px;}
+			div#works div.minus14 div.thumb a{background-color: #fff;border: 1px solid #333; display: block; height: 115px; padding: 14px 0; text-align: center; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -ms-border-radius: 4px;}
+			div#works div.minus14 div.thumb a:hover{border: 1px solid #999;}
+			
+				div#works div.minus14 div.thumb a img{background-color: opacity: 1; filter:alpha(opacity=100); #fff; width: 276px;}
+				div#works div.minus14 div.thumb a:hover img{background-color: #fff; opacity: .5; filter:alpha(opacity=50); width: 276px;}
+
+
+/* -------------------------------------------------------------- 
+
+	CONTENT
+
+-------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- 
+	CASE STUDY & ABOUT PAGES
+-------------------------------------------------------------- */
+
+div#content{padding: 56px 0;}
+
+	/* -------------------------------- 
+		Ct-info
+	-------------------------------- */
+	
+	div#content div#ct-info{display: inline; float: left; width: 626px;}
+		
+		div#content div#ct-info a.brd{background-color: #fff; border: 1px solid #333;display: block;}
+		div#content div#ct-info a.brd:hover{border: 1px solid #999;}
+			div#content div#ct-info a.brd:hover img{background-color: #fff;opacity: .5; filter:alpha(opacity=50); width: 622px;}
+		
+		div#content div#ct-info img {margin: 0 0 -0.5em;} /* The height should be multiple of 18px */
+
+		div#content div#ct-info ul, div#content div#ct-info ol {margin-left:66px; padding-left:14px;}
+			div#content div#ct-info ul ul, div#content div#ct-info ol ol {margin-left:26px;}
+
+	/* -------------------------------- 
+		Featured
+	-------------------------------- */
+	
+	div.featured div.stick img.new{float: right; top: 241px; position: relative; z-index: 1000;}
+	div.featured div.stick a.afternew{background-color: #fff;border: 1px solid #333; float: right; height: 269px; right: -66px;padding: 14px; position: relative; width: 359px;}
+	
+	
+		/* -------------------------------------------------------------- 
+			CONTACT
+		-------------------------------------------------------------- */
+	
+		div#content div#ct-info div#contact{background-color: #ccc; margin: 0; padding: 52px 66px;}
+	
+			div#content div#ct-info div#contact div#usermessageb.failure{border: 2px solid #ccc; clear: both; padding: 4px;}
+
+			div#content div#ct-info div#contact form legend {display: block;}
+		
+			div#content div#ct-info div#contact form fieldset.cf_hidden{display: none;}
+
+			div#content div#ct-info div#contact form fieldset ol{margin: 0; padding: 0;}
+			
+				div#content div#ct-info div#contact form fieldset ol li{list-style: none; margin: 0;}
+			
+					div#content div#ct-info div#contact form fieldset ol li input {border: 0; margin-bottom: 14px; padding: 4px; width: 480px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px;}
+					div#content div#ct-info div#contact form fieldset ol li textarea{border: 0;  padding: 4px; width: 480px; margin-bottom: 18px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -ms-border-radius: 4px;}
+			
+				div#content div#ct-info div#contact form p input{background-color: #000; border: 0; color: #fff; cursor: pointer; height: 36px; width: 66px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px;}
+	
+	
+	/* -------------------------------- 
+		Sidebar
+	-------------------------------- */
+
+	div#content div#sidebar{display: inline; float: right; margin-top: 4.2em; text-align: left; width: 264px;}
+		div#content div#sidebar dl dt{float: left; display: inline;}
+		div#content div#sidebar dl dd{border-bottom: 1px solid #333;}
+
+		div#content div#sidebar ul {margin-top: -8px;} /* After dl */
+				div#content div#sidebar ul li {display: inline;}
+					div#content div#sidebar ul li a{border-bottom: 1px solid #333; display: block; padding: 9px 0 8px;}
+				
+		div#content div#sidebar div.vcard img{margin-bottom: 1.6em;}
+
+		div#content div#sidebar div.vcard a.card{background: transparent url('../images/vcard.png') no-repeat 0 100%; padding-left: 24px;}
+
+		div#content div#sidebar div.vcard span{margin: 0; padding: 0;}
+
+
+/* -------------------------------------------------------------- 
+
+	FOOTER
+
+-------------------------------------------------------------- */
+
+	div#footer{background: #333;height: 140px;}
+		div#footer div#foot{padding: 0 14px;}
+			div#footer div#foot ol#footnav{padding: 56px 0 9px; overflow: hidden;}
+				div#footer div#foot ol#footnav li{display: inline;float: left; margin-right: 7px;}
+				
+	div#footer div#foot p.rss{background: url('../images/feed-icon.gif') no-repeat 0 50%; padding-left: 18px;}

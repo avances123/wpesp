@@ -1,0 +1,28 @@
+div#slider {margin: 0 auto 28px; position: relative; width: 946px;}
+
+	div#slider img.scrollButtons {position: absolute; top: 200px; cursor: pointer}
+
+		div#slider img.scrollButtons.left {left: -26px;}
+
+		div#slider img.scrollButtons.right {right: -26px}
+	
+	/* .SCROLL */
+	div#slider div.scroll {clear: left;height: 301px; overflow: auto; overflow-x: hidden; padding:56px 0 0; position: relative; /* fix for IE to respect overflow */width: 965px;}
+		
+		/* .PANEL */
+		/* DIV.PANEL is close to DIV.FEATURED style from layout.css  */
+		div#slider div.scroll div.scrollContainer div.panel {height: 301px; overflow: hidden; padding: 0 1px 0; width: 945px;} /* 1px padding for a good view */
+			div#slider div.scroll div.scrollContainer div.panel div.info{float: left; width: 505px; position: absolute;}
+
+				div#slider div.scroll div.scrollContainer div.panel div.info dl dt{float: left; display: inline;}
+
+			div#slider div.scroll div.scrollContainer div.panel ul.view{margin-top: 285px; position: absolute; width: 505px;}
+				div#slider div.scroll div.scrollContainer div.panel ul.view li{display: inline; margin-right: 7px;}
+				
+			div#slider div.scroll div.scrollContainer div.panel div.stick img.new{float: right; top: 241px; position: relative; z-index: 1000;}
+			div#slider div.scroll div.scrollContainer div.panel div.stick a.afternew{background-color: #fff;border: 1px solid #333; float: right; height: 269px; right: -66px;padding: 14px; position: relative; width: 359px;}
+			
+			div#slider div.scroll div.scrollContainer div.panel div.stick a{background-color: #fff;border: 1px solid #333; float: right; height: 269px; padding: 14px; position: relative; width: 359px;}
+			div#slider div.scroll div.scrollContainer div.panel div.stick a:hover{border: 1px solid #999;}
+				
+				div#slider div.scroll div.scrollContainer div.panel div.stick a:hover img{opacity: .5; filter:alpha(opacity=50);}

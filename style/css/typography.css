@@ -1,0 +1,195 @@
+/* -------------------------------------------------------------- 
+
+	TYPOGRAPHY
+	
+	Font families:
+		- Sans-serif: Arial, Helvetica, sans-serif
+		- Serif: Georgia,"Times New Roman",Times,serif
+	
+	Font size:
+		28px -> 2.333em
+		24px -> 2em
+		20px -> 1.666em
+		16px -> 1.333em
+		14px -> 1.166em
+		12px -> Deafult (body{font-size: 75%})
+	
+	Colors:
+		- Darker: #000
+		- Dark: #333
+		- Midel-light: #666
+		- Light: #999
+
+-------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------
+
+	DEFAULT
+	
+-------------------------------------------------------------- */
+
+
+body{font: 75%/1.5em Arial, Helvetica, sans-serif;} /* font-size: 12px; line-height: 18px; */
+
+
+/* -------------------------------- 
+	Links
+-------------------------------- */
+
+a{color: #000; text-decoration: underline;}
+a:hover{color: #666; text-decoration: underline;}
+a:focus{background-color: #ccc;}
+
+
+/* -------------------------------- 
+	Heading
+-------------------------------- */
+
+h1, h2, h3, h5, h5, h6 {font-weight:bold; }
+
+h2 {color: #333; font-size: 2.333em; letter-spacing: -.02em; line-height: 0.642857em; margin: .1em 0 1.385714em;}
+	h2 a{color: #333; text-decoration: none;}
+	h2 a:hover, h2 a:focus{color: #666; text-decoration: none;}
+	
+h3{color: #333;font-size:1.666667em; letter-spacing: -.01em; line-height: .9em; margin: 1.8em 0 .9em;}
+
+
+/* -------------------------------- 
+	Blocks
+-------------------------------- */
+
+p, dl, ul, ol{color: #333;}
+
+p{margin-bottom: 18px;text-align: justify;}
+
+abbr, acronym {border-bottom: 1px dotted #666; cursor: help;}
+
+
+/* --------------------------------------------------------------
+
+	TOP (header) CAMBIO
+	
+-------------------------------------------------------------- */
+
+
+/* -------------------------------- 
+	Header
+-------------------------------- */
+
+div#header p{color: #666;font: 1.2em/1.5em Georgia,"Times New Roman",Times,serif; font-style: italic; margin: 0;text-align: justify;}
+
+/* -------------------------------- 
+	Navigation
+-------------------------------- */
+
+div#navigation ol{margin: 0;}
+
+	/* Vertical centring with line-height */
+	div#navigation ol li a{color: #fff; font-weight: bold; letter-spacing: .05em; line-height: 45px; text-decoration: none;}
+	div#navigation ol li a:focus{background: 0;}
+	div#navigation ol li a:hover.active{color: #fff;}
+		div#navigation ol li a small{color: #666; font-size: .85em; font-weight: normal; letter-spacing: 0;}
+		div#navigation ol li a:hover small{color: #fff;}
+		div#navigation ol li a.active small{color: #ccc;}
+		div#navigation ol li a:hover.active small{color: #ccc;}
+
+
+/* --------------------------------------------------------------
+
+	WORK & CATEGORY PAGES
+	
+-------------------------------------------------------------- */
+
+
+/* -------------------------------- 
+	Featured
+-------------------------------- */
+
+div.featured dl, div.panel dl {margin-bottom: 1.5em;}
+
+
+/* -------------------------------- 
+	Works
+-------------------------------- */
+
+div#works div.thumb {}
+
+
+/* -------------------------------------------------------------- 
+
+	CONTENT
+
+-------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- 
+	CASE STUDY & ABOUT PAGES
+-------------------------------------------------------------- */
+
+	/* -------------------------------- 
+		Ct-Info
+	-------------------------------- */
+
+	div#content div#ct-info ul, div#content div#ct-info ol{color: #333;}
+		div#content div#ct-info ul {list-style-position:outside; list-style-type:circle;}
+			div#content div#ct-info ul li, div#content div#ct-info ol li{margin-bottom: 1.5em;}
+		div#content div#ct-info ol {list-style-position:outside;list-style-type:decimal;}
+
+	div#content div#ct-info blockquote, div#content div#ct-info q{color: #333; font-style: italic; margin: 36px 66px; padding: 0 14px; text-align: justify;}
+		div#content div#ct-info blockquote p {color: #333;}
+
+
+		/* -------------------------------------------------------------- 
+			CONTACT
+		-------------------------------------------------------------- */
+
+		div#content div#ct-info div#contact div#usermessageb{color: #333; font-weight: bold;}
+
+		div#content div#ct-info div#contact p.linklove{display: none;}
+
+		div#content div#ct-info div#contact form{font-size: 1em;}
+		
+			div#content div#ct-info div#contact form legend{color: #333; font-size:1.666667em; font-weight: bold; letter-spacing: -.01em; line-height: .9em; padding-bottom: .9em; }
+
+			div#content div#ct-info div#contact form p{color: #333;}
+
+			div#content div#ct-info div#contact form fieldset label{color: #333; font-weight: bold;}
+			
+				div#content div#ct-info div#contact form fieldset span.reqtxt, div#content div#ct-info div#contact form fieldset span.emailreqtxt{color: #666; font-weight: normal; padding-left: 4px;}
+
+				div#content div#ct-info div#contact form fieldset ol li.textonly{color: #333;margin-bottom: 18px; text-align: justify;}
+					div#content div#ct-info div#contact form fieldset ol li input, div#content div#contact form fieldset ol li textarea {font-size: 1em; font-family: Arial, Helvetica, sans-serif;}
+
+
+		/* -------------------------------------------------------------- 
+			404
+		-------------------------------------------------------------- */
+
+		div#content div#error h2{background: none; padding-left: 0;}
+		div#content div#error h3{font-weight: normal;}
+
+
+	/* -------------------------------- 
+		SIDEBAR
+	-------------------------------- */
+
+	div#content div#sidebar h2, div#content div#sidebar h3 {font-size:1.666667em; letter-spacing: -.01em; line-height: .9em;}
+	div#content div#sidebar h2{margin: 0 0 .9em; padding: 0;}
+	
+	div#content div#sidebar h3 {margin-top: 1.6em;}
+	
+	div#content div#sidebar dl dd{margin-bottom:8px; padding-bottom:0.75em;} /* we have change margin-bottom:18px; by 8px (margin-bottom:18px-border-bottom:1px-padding-bottom:9px) */
+
+
+/* -------------------------------------------------------------- 
+	FOOTER
+-------------------------------------------------------------- */
+
+	div#footer div#foot ol#footnav li{color: #666; font-size: .9em;}
+		div#footer div#foot ol#footnav li a{color:#ccc; text-decoration: none;}
+		div#footer div#foot ol#footnav li a.active{color: #999;}
+		div#footer div#foot ol#footnav li a:focus{color: #666;}
+		
+	div#footer div#foot p{color: #666; clear:left; font-size: .9em; margin: 0;}
+		div#footer div#foot p a{color: #ccc; text-decoration: none;}

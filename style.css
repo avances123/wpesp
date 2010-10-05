@@ -1,0 +1,24 @@
+/* -------------------------------------------------------------- 
+
+	Theme Name: WPESP - Portfolio Theme Coda
+	Theme URI: http://www.wpesp.com/portfolio
+	Description: A Portfolio Theme by WPESP.
+	Author: Víctor García Cuenllas.
+	Author URI: http://wpesp.com
+	Version: 0.1
+	Tags: portfolio, theme, wpesp
+	General comments/License Statement if any.
+
+-------------------------------------------------------------- */
+
+@import "style/css/reset.css";
+@import "style/css/typography.css";
+@import "style/css/layout.css";
+@import "style/css/coda.css";
+/*@import "style/css/diagnostic.css"; Just use for developing tests */
+
+/* -------------------------------- 
+	 WordPress.com Stats - I hide the smiley (http://wordpress.org/extend/plugins/stats/faq/)
+-------------------------------- */
+
+img#wpstats{display:none;}
