@@ -66,13 +66,13 @@ body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color
 	Navigation
 -------------------------------- */
 	
-	div#navigation {background-color: #333;}
+	/*div#navigation {background-color: #333;}*/
 		
 		div#navigation div#menu {height: 56px; overflow: hidden;}
 		
 		div#navigation div#menu ol {float: left;}
-		div#navigation div#menu ol li{border-left: 1px solid #666;float: left;}
-		div#navigation div#menu ol li#menulast{border-right: 1px solid #666;}
+		/*div#navigation div#menu ol li{border-left: 1px solid #666;float: left;}*/
+		/*div#navigation div#menu ol li#menulast{border-right: 1px solid #666;}*/
 			div#navigation div#menu ol li a {display: block; height: 56px; padding-left: 31px; width: 129px;}
 					
 				/* Vertical centring with line-height:0 and marging-top */
