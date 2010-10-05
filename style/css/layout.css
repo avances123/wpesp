@@ -79,7 +79,7 @@ body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color
 				div#navigation div#menu ol li a small{display: block; line-height:0; margin-top: -7px;}
 				
 		div#navigation div#menu div#feed{display: inline; float: right;}
-			div#navigation div#menu div#feed a {background: transparent url('../images/feed-nav.gif') no-repeat;display: block; height: 56px; width: 66px;}
+			/*div#navigation div#menu div#feed a {background: transparent url('../images/feed-nav.gif') no-repeat;display: block; height: 56px; width: 66px;}*/
 			div#navigation div#menu div#feed a:hover{background-position: 0 -56px;}
 				div#navigation div#menu div#feed a span{display:none;}
 
