@@ -11,7 +11,7 @@
 -------------------------------------------------------------- */
 
 
-body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color: #efefef;} /* background: just for developing */
+body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color: #fff;} /* background: just for developing */
 
 
 /* -------------------------------- 
@@ -57,7 +57,7 @@ body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color
 	div#header{padding: 28px 0;}
 	
 		div#header h1 {float: left;}
-			div#header h1 a{background: transparent url('../images/wpesp-portfolio-logo.png') no-repeat;border: none;display: block;height: 86px;overflow: hidden;text-indent: -2000px;width: 226px;}
+			div#header h1 a{background: transparent url('../images/wpesp-portfolio-logo.png') no-repeat;border: none;display: block;height: 86px;overflow: hidden;text-indent: -2000px;width: 256px;}
 			
 		div#header p{float: right; width: 304px;}
 		
@@ -71,8 +71,8 @@ body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color
 		div#navigation div#menu {height: 56px; overflow: hidden;}
 		
 		div#navigation div#menu ol {float: left;}
-		/*div#navigation div#menu ol li{border-left: 1px solid #666;float: left;}*/
-		/*div#navigation div#menu ol li#menulast{border-right: 1px solid #666;}*/
+		div#navigation div#menu ol li{border-left: 1px transparent #666;float: left;}
+		div#navigation div#menu ol li#menulast{border-right: 1px transparent #666;}
 			div#navigation div#menu ol li a {display: block; height: 56px; padding-left: 31px; width: 129px;}
 					
 				/* Vertical centring with line-height:0 and marging-top */
@@ -209,9 +209,10 @@ div#content{padding: 56px 0;}
 
 -------------------------------------------------------------- */
 
-	div#footer{background: #333;height: 140px;}
+	div#footer{background: transparent;height: 140px;}
 		div#footer div#foot{padding: 0 14px;}
 			div#footer div#foot ol#footnav{padding: 56px 0 9px; overflow: hidden;}
 				div#footer div#foot ol#footnav li{display: inline;float: left; margin-right: 7px;}
 				
 	div#footer div#foot p.rss{background: url('../images/feed-icon.gif') no-repeat 0 50%; padding-left: 18px;}
+
