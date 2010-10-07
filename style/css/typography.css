@@ -49,7 +49,7 @@ a:focus{background-color: #ccc;}
 h1, h2, h3, h5, h5, h6 {font-weight:bold; }
 
 h2 {color: #333; font-size: 2.333em; letter-spacing: -.02em; line-height: 0.642857em; margin: .1em 0 1.385714em;}
-	h2 a{color: #333; text-decoration: none;}
+	h2 a{color: #BF0B0C; text-decoration: none;font-size: 50%; }
 	h2 a:hover, h2 a:focus{color: #666; text-decoration: none;}
 	
 h3{color: #333;font-size:1.666667em; letter-spacing: -.01em; line-height: .9em; margin: 1.8em 0 .9em;}

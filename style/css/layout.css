@@ -57,7 +57,7 @@ body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color
 	div#header{padding: 28px 0;}
 	
 		div#header h1 {float: left;}
-			div#header h1 a{background: transparent url('../images/wpesp-portfolio-logo.png') no-repeat;border: none;display: block;height: 86px;overflow: hidden;text-indent: -2000px;width: 226px;}
+			div#header h1 a{background: transparent url('../images/wpesp-portfolio-logo.png') no-repeat;border: none;display: block;height: 86px;overflow: hidden;text-indent: -2000px;width: 256px;}
 			
 		div#header p{float: right; width: 304px;}
 		
@@ -209,7 +209,7 @@ div#content{padding: 56px 0;}
 
 -------------------------------------------------------------- */
 
-	div#footer{background: #333;height: 140px;}
+	div#footer{background: transparent;height: 140px;}
 		div#footer div#foot{padding: 0 14px;}
 			div#footer div#foot ol#footnav{padding: 56px 0 9px; overflow: hidden;}
 				div#footer div#foot ol#footnav li{display: inline;float: left; margin-right: 7px;}
