@@ -166,7 +166,7 @@ div#content{padding: 56px 0;}
 			CONTACT
 		-------------------------------------------------------------- */
 	
-		div#content div#ct-info div#contact{background-color: #fff; margin: 0; padding: 52px 66px;}
+		div#content div#ct-info div#contact{background-color: #fff; margin: 0; }
 	
 			div#content div#ct-info div#contact div#usermessageb.failure{border: 2px solid #ccc; clear: both; padding: 4px;}
 
@@ -181,7 +181,6 @@ div#content{padding: 56px 0;}
 					div#content div#ct-info div#contact form fieldset ol li input {border: 0; margin-bottom: 14px; padding: 4px; width: 480px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px;}
 					div#content div#ct-info div#contact form fieldset ol li textarea{border: 0;  padding: 4px; width: 480px; margin-bottom: 18px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -ms-border-radius: 4px;}
 			
-				div#content div#ct-info div#contact form p input{background-color: #000; border: 0; color: #fff; cursor: pointer; height: 36px; width: 66px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px;}
 	
 	
 	/* -------------------------------- 
