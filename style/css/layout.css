@@ -73,7 +73,7 @@ body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color
 		div#navigation div#menu ol {float: left;}
 		div#navigation div#menu ol li{border-left: 1px transparent #666;float: left;}
 		div#navigation div#menu ol li#menulast{border-right: 1px transparent #666;}
-			div#navigation div#menu ol li a {display: block; height: 56px; padding-left: 31px; width: 129px;}
+			div#navigation div#menu ol li a {display: block; height: 56px; width: 129px;}
 					
 				/* Vertical centring with line-height:0 and marging-top */
 				div#navigation div#menu ol li a small{display: block; line-height:0; margin-top: -7px;}
