@@ -54,7 +54,7 @@ body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color
 	Headre
 -------------------------------- */
 
-	div#header{padding: 28px 0;}
+	div#header{padding: 0 0;}
 	
 		div#header h1 {float: left;}
 			div#header h1 a{background: transparent url('../images/wpesp-portfolio-logo.png') no-repeat;border: none;display: block;height: 86px;overflow: hidden;text-indent: -2000px;width: 256px;}
@@ -137,7 +137,7 @@ body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color
 	CASE STUDY & ABOUT PAGES
 -------------------------------------------------------------- */
 
-div#content{padding: 56px 0;}
+div#content{}
 
 	/* -------------------------------- 
 		Ct-info
