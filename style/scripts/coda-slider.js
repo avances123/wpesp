@@ -27,8 +27,8 @@ $(document).ready(function () {
 
 	// apply our left + right buttons
 	$scroll
-		.before('<img class="scrollButtons left" src="http://demo.wpesp.com/portfolio/wp-content/uploads/scroll_left.png" />')
-		.after('<img class="scrollButtons right" src="http://demo.wpesp.com/portfolio/wp-content/uploads/scroll_right.png" />');
+		.before('<img class="scrollButtons left" src="http://alicia.avances123.com/wp-content/uploads/scroll_left.png" />')
+		.after('<img class="scrollButtons right" src="http://alicia.avances123.com/wp-content/uploads/scroll_right.png" />');
 
 	// offset is used to move to *exactly* the right place, since I'm using
 	// padding on my example, I need to subtract the amount of padding to

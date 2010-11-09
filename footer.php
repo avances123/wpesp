@@ -2,11 +2,6 @@
 			<div id="foot">
 				
 				<ol id="footnav">
-					<li><a <?php if ( is_home() || is_category("work") ) { ?> class="active"<?php } ?> href="<?php echo get_option('home'); ?>/" title="Go to the Work page">WORK</a></li>
-					<li>|</li>
-					<li><a <?php if ( is_page('about') ) { ?> class="active"<?php } ?> href="<?php echo get_option('home'); ?>/about" title="Go to the About page">ABOUT</a></li>
-					<li>|</li>
-					<li><a <?php if ( is_page('contact-us') ) { ?> class="active"<?php } ?> href="<?php echo get_option('home'); ?>/contact-us" title="Go to the Contact page">CONTACT</a></li>
 				</ol>
 
 				<p>Alicia Alvarez | Tlf. 617061848 | alicia.alvarez01@gmail.com</p>
