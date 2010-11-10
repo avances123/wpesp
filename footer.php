@@ -4,7 +4,7 @@
 				<ol id="footnav">
 				</ol>
 
-				<p>Alicia Alvarez | Tlf. 617061848 | alicia.alvarez01@gmail.com</p>
+				<p>Alicia Alvarez | Tlf. 617061848 | <a href="mailto:alicia.alvarez01@gmail.com">alicia.alvarez01@gmail.com</a></p>
 				
 				<p class="rss"><a href="<?php bloginfo('rss2_url'); ?>" rel="alternate" title="Syndicate this site using RSS"><acronym title="Really Simple Syndication">RSS</acronym> Feed</a>. Proudly powered by <a href="http://www.wordpress.org">Wordpress</a> &amp; <a href="http://wpesp.com" title="Go to the WPESP site">WPESP</a>.</p>
 				

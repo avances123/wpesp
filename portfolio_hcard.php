@@ -5,7 +5,7 @@ function portfolio_hcard(){
 	// CUSTOM FIELDS | http://codex.wordpress.org/Using_Custom_Fields
 	$given_name = get_post_meta($post->ID, "given_name_value", $single = true);
 	$family_name = get_post_meta($post->ID, "family_name_value", $single = true); 
-	$photo = get_post_meta($post->ID, "photo_value", $single = true); 
+	$photo = 'http://lh4.ggpht.com/_s4jWs0qFI7k/TNq297dmaXI/AAAAAAAAAR4/nPxhr0SwGuQ/CV%20foto.jpg';
 	$url = get_post_meta($post->ID, "url_value", $single = true);
 	$organization = get_post_meta($post->ID, "organization_value", $single = true);
 	$map_link = get_post_meta($post->ID, "map_link_value", $single = true);
