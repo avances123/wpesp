@@ -90,7 +90,7 @@ div#navigation ol{margin: 0;}
 	div#navigation ol li a:focus{background: 0;}
 	div#navigation ol li a:hover.active{color: #fff;}
 		div#navigation ol li a small{color: #666; font-size: .85em; font-weight: normal; letter-spacing: 0;}
-		div#navigation ol li a:hover small{color: #fff;}
+		div#navigation ol li a:hover small{color: #f00;}
 		div#navigation ol li a.active small{color: #222;}
 		div#navigation ol li a:hover.active small{color: #ccc;}
 
