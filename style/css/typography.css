@@ -88,11 +88,11 @@ div#navigation ol{margin: 0;}
 	/* Vertical centring with line-height */
 	div#navigation ol li a{color: #333; font-weight: bold; letter-spacing: .05em; line-height: 45px; text-decoration: none;}
 	div#navigation ol li a:focus{background: 0;}
-	div#navigation ol li a:hover.active{color: #fff;}
+	div#navigation ol li a:hover.active{color: #333;}
 		div#navigation ol li a small{color: #666; font-size: .85em; font-weight: normal; letter-spacing: 0;}
 		div#navigation ol li a:hover small{color: #f00;}
 		div#navigation ol li a.active small{color: #222;}
-		div#navigation ol li a:hover.active small{color: #ccc;}
+		div#navigation ol li a:hover.active small{color: #f00;}
 
 
 /* --------------------------------------------------------------
