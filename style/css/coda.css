@@ -1,4 +1,4 @@
-div#slider {margin: 0 auto 28px; position: relative; width: 946px;}
+div#slider {margin: 0 auto; position: relative; width: 946px;}
 
 	div#slider img.scrollButtons {position: absolute; top: 200px; cursor: pointer}
 

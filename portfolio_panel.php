@@ -39,13 +39,9 @@ function portfolio_panel(){
 
 <!-- VIEW -->
 <ul class="view">
-	<li><a href="<?php the_permalink() ?>" title="Go to View Case Study page <?php the_title_attribute(); ?>"><strong>View Case Study</strong></a></li>
 
-	<li>&Iota;</li>
-
-	<li><a href="<?php echo $view_web_site; ?>" title="Go to View Web Site"><strong>View Web Site</strong></a></li>
 	
-	<?php edit_post_link('Edit', '<li> | <li></li><li>', '</li>'); ?>
+	<?php edit_post_link('Edit', '<li><li></li><li>', '</li>'); ?>
 </ul><!-- #view -->
 
 

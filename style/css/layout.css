@@ -54,7 +54,7 @@ body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color
 	Headre
 -------------------------------- */
 
-	div#header{padding: 28px 0;}
+	div#header{padding: 0 0;}
 	
 		div#header h1 {float: left;}
 			div#header h1 a{background: transparent url('../images/wpesp-portfolio-logo.png') no-repeat;border: none;display: block;height: 86px;overflow: hidden;text-indent: -2000px;width: 256px;}
@@ -73,7 +73,7 @@ body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color
 		div#navigation div#menu ol {float: left;}
 		div#navigation div#menu ol li{border-left: 1px transparent #666;float: left;}
 		div#navigation div#menu ol li#menulast{border-right: 1px transparent #666;}
-			div#navigation div#menu ol li a {display: block; height: 56px; padding-left: 31px; width: 129px;}
+			div#navigation div#menu ol li a {display: block; height: 56px; width: 129px;}
 					
 				/* Vertical centring with line-height:0 and marging-top */
 				div#navigation div#menu ol li a small{display: block; line-height:0; margin-top: -7px;}
@@ -137,7 +137,7 @@ body{/* background: #fff url('../images/gridbg.gif') repeat; */ background-color
 	CASE STUDY & ABOUT PAGES
 -------------------------------------------------------------- */
 
-div#content{padding: 56px 0;}
+div#content{}
 
 	/* -------------------------------- 
 		Ct-info
@@ -166,7 +166,7 @@ div#content{padding: 56px 0;}
 			CONTACT
 		-------------------------------------------------------------- */
 	
-		div#content div#ct-info div#contact{background-color: #ccc; margin: 0; padding: 52px 66px;}
+		div#content div#ct-info div#contact{background-color: #fff; margin: 0; }
 	
 			div#content div#ct-info div#contact div#usermessageb.failure{border: 2px solid #ccc; clear: both; padding: 4px;}
 
@@ -181,7 +181,6 @@ div#content{padding: 56px 0;}
 					div#content div#ct-info div#contact form fieldset ol li input {border: 0; margin-bottom: 14px; padding: 4px; width: 480px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px;}
 					div#content div#ct-info div#contact form fieldset ol li textarea{border: 0;  padding: 4px; width: 480px; margin-bottom: 18px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -ms-border-radius: 4px;}
 			
-				div#content div#ct-info div#contact form p input{background-color: #000; border: 0; color: #fff; cursor: pointer; height: 36px; width: 66px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px;}
 	
 	
 	/* -------------------------------- 
@@ -211,7 +210,7 @@ div#content{padding: 56px 0;}
 
 	div#footer{background: transparent;height: 140px;}
 		div#footer div#foot{padding: 0 14px;}
-			div#footer div#foot ol#footnav{padding: 56px 0 9px; overflow: hidden;}
+			div#footer div#foot ol#footnav{padding: 0px 0 9px; overflow: hidden;}
 				div#footer div#foot ol#footnav li{display: inline;float: left; margin-right: 7px;}
 				
 	div#footer div#foot p.rss{background: url('../images/feed-icon.gif') no-repeat 0 50%; padding-left: 18px;}

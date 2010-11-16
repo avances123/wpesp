@@ -15,7 +15,6 @@ Template Name: Contact Us
 			</div><!-- #ct-info -->
 
 			<div id="sidebar">
-				<?php portfolio_hcard() ?>
 			</div><!-- #sidebar -->
 		</div><!-- #content -->
 <?php endwhile; endif; ?>
