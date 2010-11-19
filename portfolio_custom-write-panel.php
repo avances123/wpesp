@@ -16,11 +16,11 @@
 	"title" => "Client",
 	"description" => "Upload a Client, add the Client name here and <strong>save the post</strong>."), // "," Important to separate arrays
 	
-	"company" => array(
-	"name" => "company",
+	"tipo" => array(
+	"name" => "tipo",
 	"std" => "",
-	"title" => "Company",
-	"description" => "Upload a Company, add the Company name here and <strong>save the post</strong>."),
+	"title" => "Tipo",
+	"description" => "Upload a Tipo, add the Tipo name here and <strong>save the post</strong>."),
 	
 	"deliverables" => array(
 	"name" => "deliverables",
