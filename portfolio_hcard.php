@@ -10,11 +10,6 @@ function portfolio_hcard(){
 	$url = get_post_meta($post->ID, "url_value", $single = true);
 	$organization = get_post_meta($post->ID, "organization_value", $single = true);
 	$map_link = get_post_meta($post->ID, "map_link_value", $single = true);
-	$street = get_post_meta($post->ID, "street_value", $single = true);
-	$locality = get_post_meta($post->ID, "locality_value", $single = true);
-	$region = get_post_meta($post->ID, "region_value", $single = true);
-	$postal_code = get_post_meta($post->ID, "postal_code_value", $single = true);
-	$country = get_post_meta($post->ID, "country_value", $single = true);
 	$phone = get_post_meta($post->ID, "phone_value", $single = true);
 	$fax = get_post_meta($post->ID, "fax_value", $single = true);
 	$email = get_post_meta($post->ID, "email_value", $single = true);
@@ -48,19 +43,10 @@ function portfolio_hcard(){
 		</p>
 		
 		<p class="adr">
-				<strong>Adress:</strong>
-					<a href="<?php echo $map_link; ?>" title="Where to find us - GoogleMaps">
-						<span class="street-address"><?php echo $street; ?></span><span>.</span><span class="locality"><?php echo $locality; ?></span><span>.</span>
-						<br />
-						<span class="region"><?php echo $region; ?></span><span>,</span>
-						<span class="postal-code"><?php echo $postal_code; ?></span><span>.</span>
-						<span class="country-name"><?php echo $country; ?></span><span>.</span>
-					</a>
 		</p>
 
 		<p>
 			<span class="tel">
-				<span class="type"><strong>Work</strong></span><span>:</span>
 				<span class="value">
 					<?php echo $phone; ?>
 				</span>
@@ -72,7 +58,6 @@ function portfolio_hcard(){
 				</span>
 				<br /><br />
 			<?php endif ?>
-			<span><strong>Email</strong>:</span>
 			<a href="mailto:<?php echo antispambot($email); ?>" class="email">
 				<?php echo antispambot($email); // http://codex.wordpress.org/Protection_From_Harvesters ?>
 			</a>
