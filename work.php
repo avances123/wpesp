@@ -39,8 +39,8 @@
 				<?php } ?>
 		
 				<ul>
-					<?php previous_post_link('<li>%link</li>', '<strong>&laquo;&nbsp;Proyecto Anterior</strong>', TRUE); // http://codex.wordpress.org/Template_Tags/previous_post_link ?>
-					<?php next_post_link('<li>%link</li>', '<strong>Proyecto Posterior&nbsp;&raquo;</strong>', TRUE); ?>
+					<?php previous_post_link('<li>%link</li>', '&laquo;&nbsp;Proyecto Anterior', TRUE); // http://codex.wordpress.org/Template_Tags/previous_post_link ?>
+					<?php next_post_link('<li>%link</li>', 'Proyecto Posterior&nbsp;&raquo;', TRUE); ?>
 				</ul>
 		
 			</div><!-- #sidebar -->

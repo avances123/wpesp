@@ -143,7 +143,7 @@ div#content{}
 		Ct-info
 	-------------------------------- */
 	
-	div#content div#ct-info{display: inline; float: left; width: 626px;}
+	div#content div#ct-info{display: inline; float: left; width: 626px; padding: 40px 0px;}
 		
 		div#content div#ct-info a.brd{background-color: #fff; border: 1px solid #333;display: block;}
 		div#content div#ct-info a.brd:hover{border: 1px solid #999;}
