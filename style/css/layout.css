@@ -193,7 +193,7 @@ div#content{}
 
 		div#content div#sidebar ul {margin-top: -8px;} /* After dl */
 				div#content div#sidebar ul li {display: inline;}
-					div#content div#sidebar ul li a{border-bottom: 1px solid #333; display: block; padding: 9px 0 8px;}
+					div#content div#sidebar ul li a{border-bottom: 0px solid #333; display: block; padding: 9px 0 8px;}
 				
 		div#content div#sidebar div.vcard img{margin-bottom: 1.6em;}
 

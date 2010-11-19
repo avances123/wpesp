@@ -37,7 +37,8 @@ body{font: 75%/1.5em Arial, Helvetica, sans-serif;} /* font-size: 12px; line-hei
 	Links
 -------------------------------- */
 
-a{color: #000; text-decoration: underline;}
+/*a{color: #000; text-decoration: underline;}*/
+a{color: #000; text-decoration: none;}
 a:hover{color: #666; text-decoration: underline;}
 a:focus{background-color: #ccc;}
 
