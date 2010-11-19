@@ -58,7 +58,7 @@ $(document).ready(function () {
 			offset: offset,
 
 			// duration of the sliding effect
-			duration: 500,
+			duration: 1000,
 
 			// easing - can be used with the easing plugin: 
 			// http://gsgd.co.uk/sandbox/jquery/easing/
