@@ -13,22 +13,22 @@
 					 // CUSTOM FIELDS | http://codex.wordpress.org/Using_Custom_Fields
 
 						$client = get_post_meta($post->ID, "client_value", true);
-						$company = get_post_meta($post->ID, "company_value", true);
+						$tipo = get_post_meta($post->ID, "tipo_value", true);
 						$deliverables = get_post_meta($post->ID, "deliverables_value", true);
 						$src_featured_image = get_post_meta($post->ID, "src_featured_image_value", true);
 						$view_web_site = get_post_meta($post->ID, "view_web_site_value", true);
 				?>
 		
-				<?php if($client or $company or $deliverables !== '') { ?>
+				<?php if($client or $tipo or $deliverables !== '') { ?>
 					<dl>
 						<?php if($client !== '') { // If have Cliente print it ?>
 							<dt><strong>Client</strong>:&nbsp;</dt>
 							<dd><?php echo $client; ?></dd>
 						<?php } ?>
 			
-						<?php if($company !== '') { ?>
-						<dt><strong>Company</strong>:&nbsp;</dt>
-						<dd><?php echo $company; ?></dd>
+						<?php if($tipo !== '') { ?>
+						<dt><strong>Tipo</strong>:&nbsp;</dt>
+						<dd><?php echo $tipo; ?></dd>
 						<?php } ?>
 			
 						<?php if($deliverables !== '') { ?>
