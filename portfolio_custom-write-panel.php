@@ -22,12 +22,6 @@
 	"title" => "Tipo",
 	"description" => "Upload a Tipo, add the Tipo name here and <strong>save the post</strong>."),
 	
-	"deliverables" => array(
-	"name" => "deliverables",
-	"std" => "",
-	"title" => "Deliverables",
-	"description" => "Upload a Deliverables, add the Deliverables info and <strong>save the post</strong>."),
-	
 	"view_web_site" => array(
 	"name" => "view_web_site",
 	"std" => "",
