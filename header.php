@@ -55,11 +55,11 @@
 		<div id="navigation">
 			<div id="menu">
 				<ol> <!-- http://codex.wordpress.org/Conditional_Tags -->
-					<li><a <?php if ( is_home() || is_category("work") ) { ?> class="active"<?php } ?> href="<?php echo get_option('home'); ?>/" title="Vistazo a mis trabajos">TRABAJOS<small>Mis Proyectos</small></a></li>
+					<li><a <?php if ( is_home() || is_category("work") ) { ?> class="active"<?php } ?> href="<?php echo get_option('home'); ?>/" >TRABAJOS<small>Mis Proyectos</small></a></li>
 
-					<li><a <?php if ( is_page('about') ) { ?> class="active"<?php } ?> href="<?php echo get_option('home'); ?>/about" title="Mi CV">ACERCA DE MI<small>Curriculum Vitae</small></a></li>
+					<li><a <?php if ( is_page('about') ) { ?> class="active"<?php } ?> href="<?php echo get_option('home'); ?>/about" >ACERCA DE MI<small>Curriculum Vitae</small></a></li>
 
-					<li id="menulast"><a <?php if ( is_page('contact-us') ) { ?> class="active"<?php } ?> href="<?php echo get_option('home'); ?>/contact-us" title="Enviame un mensaje">CONTACTO<small>Contacta conmigo</small></a></li>
+					<li id="menulast"><a <?php if ( is_page('contact-us') ) { ?> class="active"<?php } ?> href="<?php echo get_option('home'); ?>/contact-us" >CONTACTO<small>Contacta conmigo</small></a></li>
 				</ol>
 
 				<div id="feed">
