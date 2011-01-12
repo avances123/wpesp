@@ -6,7 +6,7 @@ function portfolio_hcard(){
 	$given_name = get_post_meta($post->ID, "given_name_value", $single = true);
 	$family_name = get_post_meta($post->ID, "family_name_value", $single = true); 
 	//$photo = 'http://lh4.ggpht.com/_s4jWs0qFI7k/TNq297dmaXI/AAAAAAAAAR4/nPxhr0SwGuQ/CV%20foto.jpg';
-	$photo = 'http://lh3.ggpht.com/_s4jWs0qFI7k/TN1LQd_ggTI/AAAAAAAAASM/XHJF0VaQwXw/CV%20foto%20new.jpg';
+	$photo = 'http://lh3.ggpht.com/_s4jWs0qFI7k/TS3S6KthAVI/AAAAAAAAAWQ/A7Nvlh7k1oQ/CV%20foto%20Slide%2002.jpg';
 	$url = get_post_meta($post->ID, "url_value", $single = true);
 	$organization = get_post_meta($post->ID, "organization_value", $single = true);
 	$map_link = get_post_meta($post->ID, "map_link_value", $single = true);
@@ -18,7 +18,7 @@ function portfolio_hcard(){
 	
 	<div class="vcard">
 		<?php if (is_page(about)): ?>
-			<img src="<?php echo $photo; ?>" class="photo" alt="<?php echo $given_name ?> <?php echo $family_name ?>" title="<?php echo $given_name ?> <?php echo $family_name ?> Curriculum Vitae Photo" width="264" height="252" />
+			<img src="<?php echo $photo; ?>" class="photo" alt="<?php echo $given_name ?> <?php echo $family_name ?>" title="<?php echo $given_name ?> <?php echo $family_name ?> Curriculum Vitae Photo" width="401" height="313" />
 		<h3 class="fn n">
 			<span class="given_name">
 				<?php echo $given_name; ?>
