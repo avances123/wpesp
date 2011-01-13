@@ -189,7 +189,7 @@ div#content{}
 
 	div#content div#sidebar{display: inline; float: right; margin-top: 4.2em; text-align: left; width: 264px;}
 		div#content div#sidebar dl dt{float: left; display: inline;}
-		div#content div#sidebar dl dd{border-bottom: 1px solid #333;}
+		/* div#content div#sidebar dl dd{border-bottom: 1px solid #333;} */
 
 		div#content div#sidebar ul {margin-top: -8px;} /* After dl */
 				div#content div#sidebar ul li {display: inline;}

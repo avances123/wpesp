@@ -17,7 +17,7 @@ function portfolio_panel(){
 	<?php if($client or $tipo or $deliverables !== '') { ?>
 		<dl>
 			<?php if($client !== '') { ?><!-- If have Cliente print it -->
-				<dt><strong>Client</strong>:&nbsp;</dt>
+				<dt><strong>Cliente</strong>:&nbsp;</dt>
 				<dd><?php echo $client; ?></dd>
 			<?php } ?>
 
