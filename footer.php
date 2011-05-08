@@ -12,16 +12,5 @@
 		</div><!-- #footer -->
 		<?php wp_footer(); ?>
 
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$.getScript('http://www.google-analytics.com/ga.js',function(){
-				if (typeof(_gat) == 'object'){
-					var pageTracker = _gat._getTracker('UA-19852087-1');
-					pageTracker._initData();
-					pageTracker._trackPageView();
-				}
-			});
-		});
-	</script>
 	</body>
 </html>
